@@ -1,0 +1,90 @@
+.card {
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+  }
+  
+  .title {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: "Inria Sans";
+    color:#ffffff;
+    margin-top: 0px;
+  }
+
+  
+  .descriptionReview {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Inria Sans";
+    text-align: left;
+    position: absolute;
+    bottom: 190px
+
+
+  }
+
+  .imageIconReview{
+    width: 30%;
+    max-height: 200px;
+    left: 80px; 
+    position: absolute;
+    margin-right: 10px; 
+    bottom: 50px
+
+  }
+
+  .imageIconComment{
+    width: 20%;
+    max-height: 200px;
+    right: 80px; 
+    position: absolute;
+    margin-right: 10px;
+    bottom: 65px
+
+  }
+  
+  
+  .image-link {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .image {
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  
+  .image-link:hover .image {
+    transform: scale(1.1); /* Adjust the scale factor to control the image size on hover */
+  }
+  
+  .image-link:hover .overlay {
+    opacity: 1;
+  }
+
+  .image-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .imageIconComment:hover .image {
+    transform: scale(1.1); /* Adjust the scale factor to control the image size on hover */
+  }
+  
+  .imageIconComment:hover .overlay {
+    opacity: 1;
+  }
+  
+
